@@ -3,7 +3,7 @@
 
 [1-Toma de Requerimientos](https://github.com/ErickOrtiz0298/MissionFrontEndErickOrtiz/blob/main/01-Intro/1.-Requerimientos.doc)
 
-2-Crea tu buyer persona 
+[2-Crea tu buyer persona](https://github.com/ErickOrtiz0298/MissionFrontEndErickOrtiz/blob/main/01-Intro/2.-persona.pdf) 
 
 3-Publico objetivo 
 
