@@ -7,6 +7,6 @@
 
 [3-Publico objetivo](https://miro.com/app/board/uXjVPRbI7tk=/)
 
-4- Crea tu primer WireFrame
+[4- Crea tu primer WireFrame](https://miro.com/app/board/uXjVPQxCaSE=/)
 
 5- Ahora el UI
