@@ -5,6 +5,8 @@ Para las practicas de esta semana tendrán el siguiente caso y a raiz de eso sac
 
 **Caso:** Abogabot Descripción:
 
+- Esto es viñeta 1.
+
 [1-Toma de Requerimientos](https://github.com/ErickOrtiz0298/MissionFrontEndErickOrtiz/blob/main/01-Intro/1.-Requerimientos.doc)
 
 [2-Crea tu buyer persona](https://github.com/ErickOrtiz0298/MissionFrontEndErickOrtiz/blob/main/01-Intro/2.-persona.pdf) 
