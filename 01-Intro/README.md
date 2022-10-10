@@ -1,6 +1,10 @@
 
 # Práctica de Intro a Front End
 
+Para las practicas de esta semana tendrán el siguiente caso y a raiz de eso sacar los puntos mencionados abajo.
+
+**Caso:** Abogabot Descripción:
+
 [1-Toma de Requerimientos](https://github.com/ErickOrtiz0298/MissionFrontEndErickOrtiz/blob/main/01-Intro/1.-Requerimientos.doc)
 
 [2-Crea tu buyer persona](https://github.com/ErickOrtiz0298/MissionFrontEndErickOrtiz/blob/main/01-Intro/2.-persona.pdf) 
