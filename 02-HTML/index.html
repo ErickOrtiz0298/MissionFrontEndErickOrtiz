@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, 
     initial-scale=1.0,maximum-scale=3.0, minimum-scale=1.0">
     <title>Pasteleria los gallos</title>
-    <link rel="stylesheet" hre="CSS/estilos.css">
-    <link rel="stylesheet" hre="CSS/font.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/font.css">
 </head>
 <body>
     <header class="main-header">
@@ -27,19 +27,75 @@
     </header>
     <nav class="main-nav">
         <div class="container container--flex">
-            <span class="" id="btn-menu"></span>
+            <span class="icon-menu" id="btnmenu"></span>
             <ul class="menu" id="menu">
-                <li class="menu__item"><a href="" class="menu__link">Inicio</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Nosotros</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Galeria</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Contacto</a></li>
+                <li class="menu__item"><a href="/" class="menu__link menu__link--select">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
             </ul>
             <div class="social-icon">
-                <a href="" class="social-icon__link"><span class="icon-">Faceboon</span></a>
-                <a href="" class="social-icon__link"><span class="icon-">Twitter</span></a>
-                <a href="" class="social-icon__link"><span class="icon-">Instagram</span></a>
+                <a href="" class="social-icon__link"><span class="icon-facebook">Facebook</span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter">Twitter</span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail">Instagram</span></a>
             </div>
         </div>
     </nav>
+    <!--Minuto 19:49 video 03--> 
+    <section class="banner">
+        <img src="Imagenes/banner.jpg" alt="" class="banner__img">
+        <div class="banner__content">Los mejores y más exquisitos postres aquí</div>
+    </section>
+
+    <main class="main">
+        <section class="group group--color"></section>
+        <div class="container">
+            <h2 class="main__title">Bienvenido a su pasteleria</h2>
+            <p class="main__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Exercitationem quaerat temporibus necessitatibus deserunt, at eius earum animi 
+                iure ratione atque quia aut distinctio veritatis porro maiores ipsa tenetur voluptate. 
+                Perferendis. </p>
+        </div>
+        <section class="group main__about__description">
+            <div class="container container--flex">
+                <div class="column colum--50">
+                    <img src="Imagenes/cheeseCake.jpg" alt="">
+                </div>
+                <div class="column colum--50">
+                    <h3 class="column__title">Expertos en soluciones pasteleras</h3>
+                    <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Asperiores minima possimus architecto, corporis fuga nesciunt quidem aliquam 
+                        vitae soluta sunt hic amet dolor libero? Natus sint saepe nobis odio repellendus?</p>
+                        <a href="" class="btn btn--contact">Contact</a>
+                </div>
+            </div>
+        </section>
+        <section class="group today-special">
+            <h2 class="today-special__title">Pasteles de su eleccion</h2>
+            <div class="container container__flex">
+                <div class="column column--50-25">
+                    <img src="Imagenes/chocolateCake.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Chocolate</div>
+                    <div class="today-special__price">$300</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="Imagenes/mangoCake.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Mango</div>
+                    <div class="today-special__price">$300</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="Imagenes/strawberryCake.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">Strawberry</div>
+                    <div class="today-special__price">$300</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="Imagenes/cheeseCake.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">CheeseCake</div>
+                    <div class="today-special__price">$300</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
