@@ -11,3 +11,46 @@
     font-weight:bold;
     src:url(../fonts/Montsrrat-Bold.ttf);
 }
+
+*{
+    box-sizing: border-box;
+}
+body{
+    /*Al body le estoy aplicando la propiedad font family con la propiedad de monserrat*/
+    font-family: 'Monserrat', sans-serif;
+    margin: 0;
+}
+/*--------------------Estilos base----------------------------------------------- */
+/* */
+/*A todas las etiquetas img se les ajustará el tamaño*/
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+/*Encabezado con margen 0*/
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.container--flex{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+    width: 100%;
+}
+/*------------------------------Estilos header-----------------------------------------*/
+.main-header{
+    width: 100%;
+}
+.logo{
+    font-size: 1.8em;
+    color: #DE423A;
+}
