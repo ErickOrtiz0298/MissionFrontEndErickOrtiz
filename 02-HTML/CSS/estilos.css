@@ -4,12 +4,13 @@
 }
 @font-face{
     font-family:"Montserrat";
-    src:url(../fonts/Montsrrat-Regular.ttf);
+    src:url(../fonts/Montserrat-Regular.ttf);
+
 }
 @font-face{
     font-family:"Montserrat";
     font-weight:bold;
-    src:url(../fonts/Montsrrat-Bold.ttf);
+    src:url(../fonts/Montserrat-Bold.ttf);
 }
 
 *{
@@ -17,7 +18,7 @@
 }
 body{
     /*Al body le estoy aplicando la propiedad font family con la propiedad de monserrat*/
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 /*--------------------Estilos base----------------------------------------------- */
@@ -31,7 +32,6 @@ img{
 /*Encabezado con margen 0*/
 h1,h2,h3,h4,h5,h6{
     margin:0;
-
 }
 .container{
     width: 100%;
@@ -53,4 +53,89 @@ h1,h2,h3,h4,h5,h6{
 .logo{
     font-size: 1.8em;
     color: #DE423A;
+    padding: 10px;
+    font-family: 'Pacifico',cursive;
+    font-weight: 100;
+}
+.main-header__contactInfo__phone{
+    background: #DE423A;
+    color: white; 
+    margin: 0 auto; 
+    padding: 10px;
+     
+}
+.main-header__contactInfo__address{
+    padding: 10px;
+    margin: 0;    
+}
+/*Seleccionando todos los elementos que tengan la clase icon-*/
+.main-header [class*="icon-"]:before{
+position: relative; 
+top:2px; 
+right:5px; 
+}
+
+/*-------------------------------Estilos del menu------------------------*/
+.main-nav{
+    width: 100%;
+    position:relative; 
+    z-index: 2000;
+    padding:10px; 
+}
+.icon-menu{
+    display: block;
+    color:white; 
+}
+.social-icon{
+    display:flex;
+    justify-content: space-between;
+}
+
+.social-icon [class*="icon-"]:before {
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+}
+.social-icon__link{
+    text-decoration: none;
+}
+.menu{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0,0, .85);
+    padding: 0;
+    margin: 0;
+    list-style: none; /*para quitar las bolitas de las listas*/
+    text-align: center;
+}
+.menu__link{
+    display: block;
+    padding: 15px;
+    color:white; 
+    text-decoration: none;
+}
+
+.menu__link:hover{
+    background: #DE423A;
+
+}
+.menu__link--select{
+    background: #DE423A;
+}
+
+/*----------------------------------Estilos del banner-----------------------------*/
+
+.banner{
+    margin-top: -55px;
+    position: relative;
+
 }
