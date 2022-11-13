@@ -1,0 +1,624 @@
+/* Se agregará un estilo para el pie de página */
+*{
+    margin: 1.5%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Título de la página que va en la cebecera*/
+#page{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3858d6;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    position: relative;
+    left: 25px;
+    top: 18px;
+}
+
+/*Barra de navegación*/
+nav{
+    font-size: 18px;
+    font-weight: bolder;
+    color: hsl(218, 15%, 60%);
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    position: absolute;
+
+    
+    transform: translateX(560px) translateY(-63px);
+    display: flex;
+    
+    cursor: default;
+    user-select: none;
+    
+}
+
+/*EFECTO DE BOTONES EN NAV*/
+.selection:hover{
+    border-radius: 3px;
+    background-color: #3656d4;
+    box-shadow: 0px 1px 26px 0.1px rgba(118, 155, 255, 0.782);   /*Se modifica para que se pronuncie el efecto */
+    color: aliceblue;
+    transition: scale(110px);
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    padding: 0 20px;
+    transition: all 370ms ease; /*Estilo de transición*/
+}
+
+/*Posición de las imágenes de enfermer@s*/
+.nurseR{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    transform: translateX(698px) translateY(-100px);
+}
+
+/*Títulos de temas dentro de la página*/
+.tema1{
+    width: 450px;
+    position: absolute;
+    
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #1f3e72;
+    transform: translateY(120px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .t1{
+    font-size: 65px;
+}
+
+ .t2{
+    font-size: 40px;
+}
+
+.post2{
+    transform: translateY(-100px);
+}
+
+.tamanoT2{
+    transform: translateY(320px);
+    margin: 0.6%;
+    /*Espacio entre palabras y tamaño*/
+    word-spacing: 0.2em;
+    line-height: 1.9em;
+    font-size: 18px;
+}
+
+.postTamano{
+    transform: translateX(12px) translateY(-5px);
+}
+
+/*Información para cada tema*/
+.inf1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    color: #6d7b93;
+    
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+/*Traslación personalizada de cada texto*/
+.inf1 .p1{
+    transform: translateY(320px);
+    margin: 0.6%;
+    /*Espacio entre palabras y tamaño*/
+    word-spacing: 0.3em;
+    line-height: 1.9em;
+    font-size: 22px;
+}
+
+.textIcon1{
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1f3e72;
+    transform: translateX(-10px);
+}
+
+.textIcon2{
+    position: absolute;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1f3e72;
+    transform: translateX(50px) translateY(-249px);
+}
+
+/*Tamaño de texto, o sea la caja para que no choque con la imagen*/
+.tamano1{
+    width: 40%;
+}
+
+
+
+/*Manipulación de los iconos*/
+.posicionIconos{
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    flex-wrap: wrap;
+    transform:  translateY(-350px);
+    color:#ffd012;
+    
+}
+
+
+/*Figuras*/
+.figura1{
+    border-radius: 10%;
+    width: 27px;
+    height: 27px;
+    background-color: #ffd012;
+    opacity: 15%;
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translateX(-5px);
+    -webkit-box-reflect: below 5px linear-gradient(transparent, transparent, rgb(0,0,0,.7));
+}
+
+/*Posiciones*/
+.posicionColor{
+    transform: translateX(187px);
+}
+
+.posicionColor1{
+    transform: translateX(8px) translateY(-200px);
+    background-color: #3858d6;
+    opacity: 10%;
+}
+
+.posicionIconoReloj{
+    color: #3858d6;
+    transform: translateX(14px) translateY(-195px);
+    opacity: 100%;
+}
+
+.escogerCalendario{
+    transform:  translateY(-50px);
+}
+
+/*Efecto de imágenes con opacidad de marca de vacunas*/
+.contenedorImg{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    transform:  translateY(-220px);
+    position: relative;
+}
+
+.logos img{
+    margin: 0 40px;
+    filter: grayscale(100%);
+    opacity: 60%;
+}
+.logos{
+    content: "";
+    filter: rgb(56, 88, 214,100);
+    width: 100%;
+    filter: opacity(0.2) drop-shadow(0 0 0 rgb(0, 42, 255)); 
+}
+
+
+/*Información de cada sección*/
+.info2{
+    position: relative;
+    display: flex;
+    align-content: right;
+    justify-content: center;
+    width: auto;
+}
+
+/*Título*/
+.tituloFormato{
+    color: #1f3e72;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 34px;
+    display: block;
+    width: auto;
+}
+
+
+.informacionFormato{
+    width: 100%;
+    max-width: 455px;
+    color: #6d7b93;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-weight: bolder;
+    word-spacing: 0.1em;
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.contenedorTitulo{
+    position: relative;
+    display: flex;
+    width: auto;
+    top: 100px;
+}
+
+
+.imagen{
+    
+    align-items: left;
+    justify-content: left;
+    margin: 0px;
+    padding: 0;
+    position: relative;
+    transform: translateX(-155px) translateY(100px);
+    flex-wrap: nowrap;
+}
+
+
+.imagen2{
+    align-items: right;
+    position: absolute;
+    transform: translateX(610px);
+    margin: 0px;
+    padding: 0;
+}
+
+
+/*TARJETAS EFECTO HOVER*/
+/*
+    Lo primero a diseñar será el contenedor que va a contener todas las tarjetas, puesto que se quiere que las tarjetas estén en un mismo renglón
+*/
+.contenedor{
+    /*Se coloca la anchura a tomar que será el 100%*/
+    width: 100%;
+    /*Ahora la máxima anchura a tomar, o sea qué es ese 100%*/
+    max-width: 1100px;
+
+    /*Se hace que el display sea flexible*/
+    display: flex;
+}
+
+/*
+    Diseño de la tarjeta
+*/
+
+.tarjeta{
+    /*La anchura de la tarjeta siempre tendrá que ser de 100% y esta se va modificando conforme se agrega más, debido a la propiedad de flex*/
+    width: 100%;
+
+    /*Entiendo que sería como la separación entre tarjetas, o sea funciona así pero es un margén en sí*/
+    margin: 20px;
+    padding: 20px;  /*Sería como la separación entre el textoy la tarjeta*/
+    border-radius: 10px;
+
+    /*Se pone esto para que cualquier cosa fuera de la tarjeta no sea visible*/
+    overflow: hidden;
+    background: white;
+
+    box-shadow: 1px 1px 4px 0.1px  rgba(0, 0, 0, 0.1); /*Como todo es cero la sombra será gris/negro*/
+   
+    
+
+    cursor: default;    /*Esto es para que no se identifique como texto y me cambie a I el cursor en lugar d ela flechita*/
+
+    transition: all 400ms ease; /*Estilo de transición*/
+    
+}
+
+/*
+Añadiendo efecto hover
+*/
+.tarjeta:hover{
+    box-shadow: 0px 1px 26px -10px rgba(118, 155, 255, 0.782);   /*Se modifica para que se pronuncie el efecto */
+    transform: scale(110%);/*0-90% disminuye 100-1000% aumenta*/
+    
+}
+
+.tarjeta i{
+    color: #3858d6;
+    padding: 15px;
+    font-size: 25px;
+    backdrop-filter: #3858d6;
+    opacity: 100%;
+    
+}
+
+.tarjeta h3{
+    margin-left: 18px;  /*Coloco un margen para que no quede pegado*/
+    color: #1f3e72;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tarjeta .contenido{    /*Esto de forma general, no se altera las letras todavía*/
+    padding: 10px;
+    text-align: left;
+}
+
+
+/*Ahora voy más profundo en el contenido, ahora alteración de texto*/
+.tarjeta .contenido p{
+    color: #6d7b93;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+/*Añadiendo el cuadro en el icono*/
+.contenedor .tarjeta i{
+    width: 47px;
+    display: block;
+    padding: 10px 10px;
+    background: #689deb1e;
+    border-radius: 10px;
+}
+
+
+/*Acordion*/
+.acordion{
+    max-width: 500px;
+    display: block;
+    height: 100px;
+    transform: translateX(550px)  translateY(-250px);
+    flex-wrap: nowrap;
+}
+
+.acordion .contenidoAcordion{
+    position: relative;
+}
+
+.acordion .contenidoAcordion .label i{
+    color: #3656d4;
+}
+
+.acordion .contenidoAcordion .label{
+    width: auto;
+    box-shadow: 0px 1px 26px 2px rgba(7, 63, 136, 0.1);   /*Se modifica para que se pronuncie el efecto */
+    padding: 12px;
+    cursor: pointer;
+    color: #264a88;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.acordion .contenidoAcordion .label::before{
+    content: '+';
+    
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.acordion .contenidoAcordion .bloqueContenido{
+    position: relative;
+    background: white;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    
+}
+
+.acordion .contenidoAcordion.active .bloqueContenido{
+    overflow: hidden;
+    height: 100px;
+    padding: 10px;
+    box-shadow: 0px 1px 26px -10px rgba(118, 155, 255, 0.782);
+}
+
+.acordion .contenidoAcordion.active .bloqueContenido p{
+    
+    padding: 0 20px;
+}
+.acordion .contenidoAcordion .bloqueContenido p{
+    padding: 0 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #6d7b93a8;
+    font-size: 13px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    transform: translateY(170px);
+  }
+
+.contadorContacto{
+    width: 550px;
+    height: auto;
+    
+}
+
+.tarjeta2{
+    /*La anchura de la tarjeta siempre tendrá que ser de 100% y esta se va modificando conforme se agrega más, debido a la propiedad de flex*/
+    width: 90%;
+    height: 180px;
+
+    /*Entiendo que sería como la separación entre tarjetas, o sea funciona así pero es un margén en sí*/
+    margin: 20px;
+    padding: 20px;  /*Sería como la separación entre el textoy la tarjeta*/
+    border-radius: 6px;
+
+    /*Se pone esto para que cualquier cosa fuera de la tarjeta no sea visible*/
+    overflow: hidden;
+    background: white;
+
+    box-shadow: 1px 1px 10px -1px  rgba(35, 87, 228, 0.076); /*Como todo es cero la sombra será gris/negro*/
+   
+}
+
+.contacto{
+    transform: translateY(200px);
+    justify-items: center;
+}
+
+.contacto .tituloContacto{
+    margin-left: 18px;  /*Coloco un margen para que no quede pegado*/
+    color: #1f3e72;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contacto p{
+    color: #6d7b93;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.selectionC p{
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f1f5ff;
+    transition: all 380ms ease; /*Estilo de transición*/
+    border-radius: 3px;
+    transform: translateX(20px) translateY(20px);
+    color: #3656d4;
+    font-weight: bold;
+}
+
+.selectionC:hover p{
+    border-radius: 6px;
+    background-color: #3656d4;
+    box-shadow: 0px 1px 30px 0.1px rgba(118, 155, 255, 0.844);   /*Se modifica para que se pronuncie el efecto */
+    color: rgb(255, 255, 255);
+    transition: scale(110px);
+}
+
+.piePagina{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100px;
+    box-sizing: content-box;
+    transform: translateY(500px);
+    background: #eef3ff;
+}
+
+.mainSection{
+    display: block;
+}
+
+footer{
+    display: block;
+    background: #eef3ff;
+    height: 300px;
+    width: 106.1%;
+    margin: -3%;
+    padding: 0;
+    box-sizing: border-box;
+    transform: translateY(600px);
+}
+
+footer {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #6d7b93a8;
+    font-size: 13px;
+    
+}   
+
+ .contenido1{
+    transform: translateY(7px);
+}
+
+footer .contenedorF {
+    width: 20%;
+    transform: translateX(25px) translateY(17px);
+}
+
+footer .contenedor2{
+    transform: translateY(130px);
+}
+
+footer .contenido2{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    transform: translateX(730px) translateY(-130px);
+    
+}
+
+footer .contenido2 .tituloIndividual{
+    
+    width: 90px;
+    display: block;
+    
+}
+
+.texto1{
+    color: #1f3e72;
+    font-size: 18px;
+    line-height: 2.2em;
+}
+
+.texto2{
+    color:#6d7b938e;
+    font-size: 14px;
+    line-height: 2.5em;
+}
+
+.listado{
+    
+    margin: 0 10%;
+}
+
+footer .terminos
+{
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    margin: -40px;
+}   
+
+.tituloContacto{
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+}
+
+.tituloContacto .campo1{
+    grid-column-start: 1;
+  grid-column-end: 3;
+    
+}
+
+.campo2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    line-height: 1.7em;
+    color: #6d7b93;
+}
