@@ -1,39 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=yes, 
-    initial-scale=1.0,maximum-scale=3.0, minimum-scale=1.0">
+    initial-scale=1.0,maximum-scale=3.0, minimum-scale=1.0"> <!--para celulares "zoom","aparacion","escala maxima,"escala minima" -->
     <title>Pasteleria los gallos</title>
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="CSS/font.css">
 </head>
 <body>
+    <!--header.main-header>.container "etiqueta header que tendrá la clase main header div elemento container"-->
     <header class="main-header">
+        <!--container--flex es una clase para css-->
         <div class="container container--flex">
-            <div class="logo-container column--50">
+            <!--.logo-container>h1.logo div con nombre de la clase, div con header h1-->
+            <!-- se le agregaron 2 clases para css "column" y "column--50"-->
+            <div class="logo-container column column--50">
                 <h1 class="logo">Pasteleria los gallos</h1>
             </div>
+            <!--.main-header__contactInfo>.main-header__contactInfo__phone-->
             <div class="main-header__contactInfo column column--50">
                 <p class="main-header__contactInfo__phone">
+                    <!--span.icon-phone-->
                     <span class="icon-phone">999-999-999</span>
                 </p>
+                <!--.main-header__contactInfo__address-->
                 <p class="main-header__contactInfo__address">
                     <span class="icon-location">Urban city av los gallos-Mexico</span>
                 </p>
             </div>
         </div>
     </header>
+    <!--nav.main-nav>.container--> <!--Nav representa una sección de una página cuyo propósito es proporcionar enlaces de navegación-->
     <nav class="main-nav">
         <div class="container container--flex">
+            <!--span.icon-menu-->
             <span class="icon-menu" id="btnmenu"></span>
+            <!--ul.menu#menu>li.menu_item*4>a.menu__link--> <!--con el # agrego el id-->
             <ul class="menu" id="menu">
                 <li class="menu__item"><a href="/" class="menu__link menu__link--select">Inicio</a></li>
                 <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
                 <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
                 <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
             </ul>
+            <!--.social>a.social-icon__link*3>span.icon--->
             <div class="social-icon">
                 <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
                 <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
@@ -41,14 +52,15 @@
             </div>
         </div>
     </nav>
-    
+    <!--section.banner>img.banner__img + .banner__content--> <!--section, imagen, div al mismo nivel debe llevar el simbolo "+"-->
     <section class="banner">
         <img src="Imagenes/banner.jpg" alt="" class="banner__img">
         <div class="banner__content">Los mejores y más exquisitos postres aquí</div>
     </section>
-
+    <!--main.main>section.group-->
     <main class="main">
         <section class="group group--color"></section>
+        <!--.container>h2.main__title + p.main__txt-->
         <div class="container">
             <h2 class="main__title">Bienvenido a su pasteleria</h2>
             <p class="main__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -56,22 +68,29 @@
                 iure ratione atque quia aut distinctio veritatis porro maiores ipsa tenetur voluptate. 
                 Perferendis. </p>
         </div>
+        <!--section.main__about__description>.container.container--flex--> <!--para poner dos clases juntas .container.container--flex-->
         <section class="group main__about__description">
             <div class="container container--flex">
-                <div class="column colum--50">
-                    <img src="Imagenes/cheeseCake.jpg" alt="">
+                <!--.colum.column--50*2-->
+                <div class="column column--50">
+                    <!--img.-->
+                    <img src="Imagenes/cake1.jpg" alt="">
                 </div>
-                <div class="column colum--50">
+                <div class="column column--50">
+                    <!--h3.column__title + p.column__txt-->
                     <h3 class="column__title">Expertos en soluciones pasteleras</h3>
                     <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Asperiores minima possimus architecto, corporis fuga nesciunt quidem aliquam 
                         vitae soluta sunt hic amet dolor libero? Natus sint saepe nobis odio repellendus?</p>
-                        <a href="" class="btn btn--contact">Contact</a>
+                    <!--a.btn.btn--contact-->
+                    <a href="" class="btn btn--contact">Contact</a>
                 </div>
             </div>
         </section>
+        <!--section.group.todayspecial>h2.today-special__title-->
         <section class="group today-special">
             <h2 class="today-special__title">Pasteles de su eleccion</h2>
+            <!--.container.container__flex>.column. column--50-25*4>img.today-special__img + .today-special__title + .today-special__price-->
             <div class="container container__flex">
                 <div class="column column--50-25">
                     <img src="Imagenes/chocolateCake.jpg" alt="" class="today-special__img">
@@ -96,20 +115,24 @@
             </div>
         </section>
     </main>
-
+    <!--footer.main-footer>.container.container--flex-->
     <footer class="main-footer">
         <div class="container container--flex">
+            <!--.column.column--33*3-->
             <div class="column column--33">
+                <!--h2.column__title>p.column__txt-->
                 <h2 class="column__title">¿Porque visitarnos?</h2>
                 <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nesciunt, blanditiis rem nemo neque dolores architecto animi beatae, amet quidem itaque labore laborum illo? Quam ducimus vitae nihil rem placeat.</p>
             </div>
             <div class="column column--33">
+                <!--h2.column__title>p.column__txt-->
                 <h2 class="column__title">Contactanos</h2>
                 <p class="column__txt">Urban city av los gallos-Mexico</p>
                 <p class="column__txt">Telefono 999-999-999</p>
                 <p class="column__txt">pasteleria@gallos.com</p>
             </div>
             <div class="column column--33">
+                <!--h2.column__title>p.column__txt-->
                 <h2 class="column__title">Siguenos en nuestras redes</h2>
                 <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
                 <p class="column__txt"><a href="" class="icon-twitter">Siguenos en twitter</a></p>
