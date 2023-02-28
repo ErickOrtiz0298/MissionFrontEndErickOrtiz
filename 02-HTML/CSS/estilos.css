@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6{
     color: #DE423A;
     padding: 10px;
     font-family: 'Pacifico',cursive;
-    font-weight: 100;
+    font-weight: 100; /* grosor del texto*/
 }
 .main-header__contactInfo__phone{
     background: #DE423A;
@@ -89,9 +89,9 @@ right:5px;
     border-radius: 3px;
     width: 40px;
     height: 40px;
-    line-height: 42px;
+    line-height: 45px;
     text-align: center;
-    cursor: pointer;
+    cursor: pointer; /*para que salga la manita*/
     font-size: 1.5em;
 }
 .social-icon{
@@ -112,27 +112,27 @@ right:5px;
     border-radius: 50%;
 }
 .social-icon__link{
-    text-decoration: none;
+    text-decoration: none; /*quitar el subrayado a los iconos*/
 }
 .menu{
-    display: none;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0,0, .85);
+    background: rgba(0, 0,0, .85);
     padding: 0;
     margin: 0;
     list-style: none; /*para quitar las bolitas de las listas*/
     text-align: center;
     height: 0;
-    overflow: hidden;
+    overflow: hidden; /*ocultar el menu y se usa para para poder animar el menu al dar click en el incono*/
+    transition: height .3s linear;
 }
 .menu__link{
     display: block;
     padding: 15px;
     color:white; 
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .menu__link:hover{
@@ -141,6 +141,10 @@ right:5px;
 }
 .menu__link--select{
     background: #DE423A;
+}
+
+.mostrar{
+    height: 196px;
 }
 
 /*----------------------------------Estilos del banner-----------------------------*/
@@ -161,7 +165,7 @@ right:5px;
 .banner__img{
     width: 100%;
     height: 500px;
-    object-fit: cover;
+    object-fit: cover; /*propiedad para no estirar las imagenes y que se ve la parte central de la imagen*/
 
 }
 .banner__content{
@@ -169,10 +173,10 @@ right:5px;
     color: white;
     text-align: center;
     position: absolute;
-    z-index: 1500;
+    z-index: 1500;/*para que el texto este sobre la imagen pero detras del menú*/
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);/*Centrar el texto con position absolute*/
     font-size: 1.5em;
     font-weight: bold;
 }
