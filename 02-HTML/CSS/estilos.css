@@ -180,3 +180,42 @@ right:5px;
     font-size: 1.5em;
     font-weight: bold;
 }
+/*-----------------------Estilos principales-------------------------*/
+.group--color .container{
+    background: #DE423A;
+    color: white; 
+    padding: 10px;
+    text-align: center;
+}
+
+.main__title{
+    margin: 15px 0;
+    font-size: 1.8em;
+    font-family: 'Pacifico',cursive; 
+    font-weight: 100;
+}
+
+.column__title{
+    font-size: 1.3em;
+}
+
+/*A la segunda columna por eso el nth-child tiene el 2. La primera columna es la imagen*/
+.main__about__description .column:nth-child(2){
+    padding: 10;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: #DE423A;
+    color:white;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.today-special .column{
+    margin-bottom: 30px;
+}
+
