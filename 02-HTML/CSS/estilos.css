@@ -247,8 +247,92 @@ right:5px;
     
 }
 /*-----------------------Estilos del footer-------------------------*/
+.main-footer{
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .8em;
+}
+
+.copy{
+    text-align: center;
+    margin:auto;
+    margin-top: 15px;
+}
+
+.main-footer [class*="icon-"]{
+    color:white;
+    text-decoration: none;
+}
+
+.main-footer [class*="icon-"]:before{
+    position: relative;
+    top:3px;
+    right: 5px;
+}
+/*-----------------------Estilos responsive-------------------------*/
+@media screen and (min-width:480px) {
+    .logo{
+        color:white;
+    }
+    .main-header__contactInfo {
+        text-align: right;
+    }
+
+    .main-header__contactInfo{
+        background: none;
+    }
+
+    
+    .main-header__contactInfo__address{
+        background: white;
+    }
+    .main-nav{
+        background: rgba(0,0,0,0, 0.85);
+    }
+
+    .banner{
+        margin-top: -140px;
+        z-index: -1000;
+    }
+
+    .banner__content{
+        font-size: 2em;
+    }
+
+    .column--50{
+        width: 49%;
+    }
+
+    .column--50-25{
+        width: 49%;
+    }
+
+    .column--33{
+        width: 32%;
+    }
+
+    .main__about__description .column:nth-child(2){
+        padding-left: 20px;
+        font-size: .9em;
+    }
+    .main__about__description .btn{
+        margin: 0;
+    }
+
+    .today-special .column{
+        border:5px solid #ddd; 
+        padding: 5px;
+    }
+
+    .today-special__img{
+        height: 200px;
+        object-fit: cover;
+    }
 
 
+}
 
-
-/*Video 5 minuto 6:14*/
+/*Video 5 minuto 14:14*/
