@@ -215,7 +215,40 @@ right:5px;
     margin: 10px auto;
 }
 
-.today-special .column{
-    margin-bottom: 30px;
+.group__title{
+    font-family: 'Pacifico',cursive;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8em;
+    margin: 30px;
 }
 
+.today-special .column{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.today-special__img{
+    margin:auto;
+    max-width: 350px;
+}
+
+.today-special__title{
+    
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.today-special__price{
+    font-size:1.5em;
+    color: #DE423A;
+    font-weight: bold;
+    
+}
+/*-----------------------Estilos del footer-------------------------*/
+
+
+
+
+/*Video 5 minuto 6:14*/
